@@ -336,7 +336,7 @@ Before publishing your own build:
 6. **Choose your Esplora server.** For production, consider your own [Esplora](https://github.com/Blockstream/esplora) or [electrs](https://github.com/romanz/electrs) instance, for privacy and availability.
 7. **Review the limits and copy:** `MAX_TRANSFER_USD`, `MIN_PASSWORD_LENGTH`, `STORE_URL`, and the warnings in the setup and login sheets.
 8. **Set up release signing** with your own upload key and Apple team ([Release builds](#release-builds)).
-9. **Publish where users can verify your build**, and keep [SECURITY.md](SECURITY.md) pointing to your repository. Replace `YOUR_ORG` in `package.json` and `.github/ISSUE_TEMPLATE/config.yml`, and turn on GitHub's private vulnerability reporting.
+9. **Publish where users can verify your build**, and keep [SECURITY.md](SECURITY.md) pointing to your repository. Point the repository URLs in `package.json` and `.github/ISSUE_TEMPLATE/config.yml` to your repository, and turn on GitHub's private vulnerability reporting.
 
 ### Ideas for extending
 
