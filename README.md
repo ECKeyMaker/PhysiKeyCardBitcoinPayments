@@ -1,4 +1,4 @@
-# Bit Wand
+# Bit Wand - PhysiKey Card Bitcoin Wallet - Cold Storage / Hot Signer Architecture
 
 **Bit Wand turns a low-cost NFC tag into a Bitcoin payment card.** It's an open-source React Native app for iOS and Android. A card plus a password *is* the wallet: the private key is derived from the two on the phone each time it's needed, and is never stored anywhere.
 
